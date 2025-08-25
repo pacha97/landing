@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #1F2937;
+    color: white;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    gap: 4rem;
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.hero-section {
+    padding: 7rem 10rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    color: white;
+}
+
+.hero-section div h1 {
+    font-size: 48px;
+}
+
+.hero-section div p {
+    font-size: 18px;
+}
+
+.hero-section div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.hero-section div a {
+    text-decoration: none;
+    color: white;
+    background-color:  #3882F6;
+    width: 20%;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.div-img {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section img {
+    width: 60%;
+}
+
+.img-section  {
+    padding: 5rem 10rem;
+}
+
+.img-section h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    gap: 2rem;
+}
+
+.gallery-img p {
+    font-size: 12px;
+    margin-top: 1rem;
+}
+
+.gallery-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.info-section {
+    margin-top: 2rem;
+    padding: 3rem 16rem;
+    background-color: rgb(213, 213, 213);
+    font-size: 25px;
+    color: rgb(59, 60, 60);
+}
+
+.block-section {
+    display: flex;
+    padding: 3rem 9rem;
+    justify-content: center;
+}
+
+.block {
+    color: white;
+    background-color: #3882F6;
+    padding: 2rem 8rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.block a {
+    text-decoration: none;
+    color: white;
+    border: 0.1rem solid #ffffff;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 15px;
+}
